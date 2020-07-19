@@ -1,10 +1,30 @@
 .thumbnail-card {
   border-radius: 10px;
   border: 1px solid #ddd;
-  min-width: 26rem;
-  max-width: 28rem;
+  min-width: 416px;
+  max-width: 448px;
   margin: 0.75rem;
+}
 
+@media(max-width: 500px) {
+  .thumbnail-card {
+    min-width: 390px;
+    max-width: 428px;
+  }
+}
+
+@media(max-width: 410px) {
+  .thumbnail-card {
+    min-width: 360px;
+    max-width: 390px;
+  }
+}
+
+@media(max-width: 360px) {
+  .thumbnail-card {
+    min-width: 300px;
+    max-width: 345px;
+  }
 }
 
 .thumbnail-header {
